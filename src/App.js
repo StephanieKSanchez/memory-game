@@ -3,7 +3,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <h1>Match</h1>
+      <button>New Game</button>
     </div>
   );
 }
