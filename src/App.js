@@ -25,10 +25,12 @@ function App() {
     setCards(shuffledCards);
     setTurns(0);
   };
+
+  console.log(cards, turns);
   return (
     <div className="App">
       <h1>Canine Match</h1>
-      <button>New Game</button>
+      <button onClick={shuffleCards}>New Game</button>
     </div>
   );
 }
