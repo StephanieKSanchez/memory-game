@@ -16,6 +16,7 @@ function App() {
   const shuffleCards = () => {
     const shuffledCards = [...cardImages, ...cardImages];
     shuffledCards.sort(() => Math.random() - 0.5);
+    shuffledCards.map((card) => ({ ...card, id: Math.random() }));
   };
   return (
     <div className="App">
