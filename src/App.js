@@ -14,6 +14,7 @@ const cardImages = [
 
 function App() {
   const [cards, setCards] = useState([]);
+  const [turns, setTurns] = useState(0);
 
   // shuffle cards
   const shuffleCards = () => {
@@ -22,6 +23,7 @@ function App() {
     shuffledCards.map((card) => ({ ...card, id: Math.random() }));
 
     setCards(shuffledCards);
+    setTurns(0);
   };
   return (
     <div className="App">
