@@ -8,7 +8,6 @@ const cardImages = [
   { src: "/images/german-shepherd.png" },
   { src: "/images/poodle.png" },
   { src: "/images/saint-bernard.png" },
-  { src: "/images/white.png" },
 ];
 
 function App() {
