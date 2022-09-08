@@ -3,11 +3,11 @@ import "./App.css";
 
 const cardImages = [
   { src: "/images/cane-corso.png" },
-  { src: "/images/chichuahua.png" },
+  // { src: "/images/chichuahua.png" },
   { src: "/images/doberman.png" },
   { src: "/images/german-shepherd.png" },
-  { src: "/images/poodle.png" },
-  { src: "/images/saint-bernard.png" },
+  // { src: "/images/poodle.png" },
+  // { src: "/images/saint-bernard.png" },
 ];
 
 function App() {
