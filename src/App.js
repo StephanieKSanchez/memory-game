@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./App.css";
 
 const cardImages = [
-  { src: "/images/blank.png" },
   { src: "/images/cane-corso.png" },
   { src: "/images/chichuahua.png" },
   { src: "/images/doberman.png" },
