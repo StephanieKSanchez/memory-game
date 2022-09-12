@@ -27,7 +27,11 @@ function App() {
     setTurns(0);
   };
 
-  console.log(cards, turns);
+  // handle a choice
+  const handleChoice = (card) => {
+    console.log(card);
+  };
+
   return (
     <div className="App">
       <h1>Canine Match</h1>
@@ -35,7 +39,7 @@ function App() {
 
       <div className="card-grid">
         {cards.map((card) => (
-          <SingleCard key={card.id} card={card} />
+          <SingleCard key={card.id} card={card} handleChoice={handleChoice} />
         ))}
       </div>
     </div>
