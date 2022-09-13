@@ -4,12 +4,12 @@ import "./App.css";
 import SingleCard from "./components/SingleCard";
 
 const cardImages = [
-  { src: "/images/cane-corso.png" },
-  // { src: "/images/chichuahua.png" },
-  { src: "/images/doberman.png" },
-  { src: "/images/german-shepherd.png" },
-  // { src: "/images/poodle.png" },
-  // { src: "/images/saint-bernard.png" },
+  { src: "/images/cane-corso.png", matched: false },
+  // { src: "/images/chichuahua.png" , matched: false},
+  { src: "/images/doberman.png", matched: false },
+  { src: "/images/german-shepherd.png", matched: false },
+  // { src: "/images/poodle.png" , matched: false},
+  // { src: "/images/saint-bernard.png" , matched: false},
 ];
 
 function App() {
