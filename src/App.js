@@ -32,6 +32,13 @@ function App() {
     choiceOne ? setChoiceTwo(card) : setChoiceOne(card);
   };
 
+  // reset choices & increase turn
+  const resetTurn = () => {
+    setChoiceOne(null);
+    setChoiceTwo(null);
+    setTurns((previousTurns) => previousTurns + 1);
+  };
+
   return (
     <div className="App">
       <h1>Canine Match</h1>
