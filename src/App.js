@@ -65,6 +65,11 @@ function App() {
     setDisabled(false);
   };
 
+  // automatically start a new game
+  useEffect(() => {
+    shuffleCards();
+  }, []);
+
   return (
     <div className="App">
       <h1>Canine Match</h1>
